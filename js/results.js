@@ -14,17 +14,17 @@ function table(caption, val) {
 }
 
 export function displayTable(data, caption) {
-    console.log(data);
     const headers = tr(th('Method') + data[0].slice(1, -1).map((v, i) => th(i)).join('') + th('Average'));
     const rows = data.map(row => tr(row.map(cell => td(cell)).join(''))).join('');
     tableDiv.innerHTML = table(caption, headers + rows);
 }
 
-export function getDisplayedDataAsCSV() {
-    return getDisplayedData()
+export function displayedDataAsCSV() {
+    return displayedData()
         .map(row => row.map(cell => `"${cell}"`).join(';')).join("\n");
 }
-function getDisplayedData() {
+
+function displayedData() {
     return [...tableDiv.querySelectorAll('tr')]
         .map(row => [...row.children].map(td => td.innerText));
 }
