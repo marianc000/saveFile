@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+* {
+    font-family: arial;
+}
+ 
+caption {
+    font-size: 1.2em;
+}
+ 
+
+.controls {
+    display: inline-block;
+}
+
+.main {
+    text-align: center;
+}
+
+button {
+    margin-left: 2em;
+}
