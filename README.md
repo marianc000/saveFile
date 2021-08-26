@@ -1,3 +1,3 @@
-# getElementById() - a popular dispensable method
+# Auto saving web page output into the selected file
 
-Sample code for my post https://marian-caikovski.medium.com/a-popular-dispensable-method-b04598b2e608 about the alternatives of getElementById()
+Sample code for my post https://marian-caikovski.medium.com/auto-saving-web-page-output-into-the-selected-file-292dd43be86 about the new alternative to downloading data from a web page
